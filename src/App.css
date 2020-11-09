@@ -1,38 +1,48 @@
-.App {
-  text-align: center;
-}
+@font-face {
+  font-family: 'GreycliffCF';
+  src: url("fonts/greycliff-cf-regular-oblique.woff2") format("woff2"), url("fonts/greycliff-cf-regular-oblique.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic; }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+@font-face {
+  font-family: 'GreycliffCF';
+  src: url("fonts/greycliff-cf-regular.woff2") format("woff2"), url("fonts/greycliff-cf-regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+@font-face {
+  font-family: 'GreycliffCF';
+  src: url("fonts/greycliff-cf-medium-oblique.woff2") format("woff2"), url("fonts/greycliff-cf-medium-oblique.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic; }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+@font-face {
+  font-family: 'GreycliffCF';
+  src: url("fonts/greycliff-cf-medium.woff2") format("woff2"), url("fonts/greycliff-cf-medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal; }
 
-.App-link {
-  color: #61dafb;
-}
+@font-face {
+  font-family: 'GreycliffCF';
+  src: url("fonts/greycliff-cf-heavy-oblique.woff2") format("woff2"), url("fonts/greycliff-cf-heavy-oblique.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic; }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@font-face {
+  font-family: 'GreycliffCF';
+  src: url("fonts/greycliff-cf-heavy.woff2") format("woff2"), url("fonts/greycliff-cf-heavy.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+.sans {
+  font-family: "GreycliffCF", Arial, Verdana, sans-serif;
+}
+body {
+  margin: 0;
+  font-family: "GreycliffCF",-apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #efefef;
 }

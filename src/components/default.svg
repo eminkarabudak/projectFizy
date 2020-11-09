@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="947" height="50" viewBox="0 0 947 50">
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <path fill="#FFF" stroke="#8E9FAD" d="M939 .5H8c-2.071 0-3.946.84-5.303 2.197C1.339 4.054.5 5.929.5 8v34c0 2.071.84 3.946 2.197 5.303C4.054 48.661 5.929 49.5 8 49.5h931c2.071 0 3.946-.84 5.303-2.197 1.358-1.357 2.197-3.232 2.197-5.303V8c0-2.071-.84-3.946-2.197-5.303C942.946 1.339 941.071.5 939 .5z" transform="translate(-70 -197) translate(70 144) translate(0 53)"/>
+                        <text fill="#000" font-family="GreycliffCF-Medium, Greycliff CF" font-size="14" font-weight="400" opacity=".303" transform="translate(-70 -197) translate(70 144) translate(0 53)">
+                            <tspan x="16" y="27">Bir anahtar kelime aratın</tspan>
+                        </text>
+                        <g fill="#000">
+                            <path d="M6.5 0C10.09 0 13 2.91 13 6.5c0 1.476-.492 2.838-1.322 3.93l4.064 4.064c.344.344.344.903 0 1.248-.319.318-.819.342-1.165.073l-.083-.073-4.065-4.064C9.338 12.508 7.976 13 6.5 13 2.91 13 0 10.09 0 6.5S2.91 0 6.5 0zm0 1.757c-2.62 0-4.743 2.124-4.743 4.743 0 2.62 2.124 4.743 4.743 4.743 2.62 0 4.743-2.124 4.743-4.743 0-2.62-2.124-4.743-4.743-4.743z" transform="translate(-70 -197) translate(70 144) translate(0 53) translate(914 17)"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

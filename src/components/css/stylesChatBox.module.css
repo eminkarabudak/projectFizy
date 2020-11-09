@@ -1,0 +1,286 @@
+.Rectangle {
+  width: 360px;
+  height: 668px;
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  bottom: 31px;
+  right: 31px;
+  box-sizing: border-box;
+  box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.25);
+  background-color: #ffffff;
+  z-index: 3;
+}
+
+.bgColor {
+  width: 100%;
+  height: 20%;
+
+  background-color: #000000;
+}
+
+.escapeGrid {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 20px;
+  right: 12px;
+}
+.escapeOval {
+  width: 20px;
+  height: 20px;
+}
+
+.Bold {
+  width: 330px;
+  height: 28px;
+  font-family: GreycliffCF;
+  font-size: 21px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #ffffff;
+  position: absolute;
+  top: 54px;
+  right: 16px;
+}
+
+.MesaiSaatleri080 {
+  width: 330px;
+  height: 18px;
+  font-family: GreycliffCF;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.26px;
+  color: #ffffff;
+  position: absolute;
+  top: 92px;
+  right: 15px;
+}
+
+.windowStyles {
+  width: 100%;
+  height: 80%;
+}
+.chatBox {
+  width: 100%;
+  height: 100%;
+  max-width: 360px;
+  max-height: 478px;
+  overflow-y: scroll;
+  overflow-x: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  position: relative;
+}
+.chatHistory {
+  width: 360px;
+  height: 478px;
+  position: relative;
+}
+.chatBox::-webkit-scrollbar {
+  display: none;
+}
+
+.sendBox {
+  width: 360px;
+  height: 60px;
+  background-color: #ffffff;
+  position: absolute;
+  bottom: 0px;
+  position: relative;
+}
+
+.burayaMesajnzYaz {
+  width: 235px;
+  height: 50px;
+  font-family: GreycliffCF;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #000000;
+  border: none;
+  position: absolute;
+  bottom: 5px;
+  left: 15px;
+}
+
+.sendButton {
+  width: 50px;
+  height: 50px;
+  border-radius: 6px;
+  border: none;
+  background-color: #fed200;
+  position: absolute;
+  bottom: 5px;
+  left: 295px;
+}
+
+.sendButtonIcon {
+  width: 25px;
+  height: 25px;
+}
+
+.paperclipIcon {
+  width: 23px;
+  height: 23px;
+  position: absolute;
+  bottom: 18px;
+  left: 263px;
+}
+
+.timestampStyle {
+  width: 28px;
+  height: 14px;
+  opacity: 0.3;
+  font-family: GreycliffCF;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+  position: absolute;
+  left: 40%;
+  top: 0%;
+}
+
+.userStyle {
+  max-width: 268px;
+  max-height: 22px;
+  font-family: GreycliffCF;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  color: #000000;
+  position: relative;
+  left: 14px;
+  top: 14px;
+  position: absolute;
+}
+
+.chatTittle {
+  font-family: GreycliffCF;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  color: #000000;
+  margin: 39px 14px 14px;
+}
+
+.sendLine {
+  width: 360px;
+  height: 1px;
+  opacity: 0.15;
+  border: solid 1px #6d7278;
+  position: absolute;
+  bottom: 60px;
+  left: 0.5px;
+}
+
+
+.chatBubble1 {
+  background: #fed200;
+  position: relative;
+  width: 80%;
+  height: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 304px;
+  min-height: 75px;
+  border-radius: 8px;
+  margin: 34px 15px 31px 41px;
+}
+.chatBubble1:after {
+  content: "";
+  position: absolute;
+  top: 10%;
+  right: 100%;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid #fed200;
+  background-image: url("../image/turkcellIcon.jpg");
+  background-size: 24px 24px;
+}
+.chatBubble1::before {
+  content: url("../image/turkcellIcon.jpg");
+  background-size: 24px 24px;
+  position: absolute;
+  top: 2%;
+  left: -12%;
+  margin-top: 10px;
+}
+
+.chatBubble2 {
+  background: rgba(0, 0, 0, 0.1);
+  position: relative;
+  width: 80%;
+  height: 50%;
+  max-width: 304px;
+  min-height: 75px;
+  margin: 30px 15px;
+  border-radius: 8px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+}
+.chatBubble2:after {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 10%;
+  right: 100%;
+  margin-top: 10px;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid rgba(0, 0, 0, 0.1);
+  right: -10px;
+  transform: rotate(180deg);
+}
+.chatBubble2:before {
+  content: url("../image/userIcon.jpg");
+  background-size: 24px 24px;
+  position: absolute;
+  top: 10%;
+  right: -12%;
+  margin-top: 10px;
+}
+.ulStyles {
+  width: 100%;
+  height: 100%;
+  max-width: 360px;
+  max-width: 478px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.chatBoxRectangle {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+}
+
+.x {
+  display: none;
+}
